@@ -1,0 +1,63 @@
+.about {
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.divider span {
+  width: 80px;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.divider i {
+  font-size: 24px;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btn {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #1abc9c;
+}
